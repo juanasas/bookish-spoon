@@ -9,23 +9,57 @@
   </head>
 
   <body ng-app="bookish-spoon">
-    <div class='header'>
-      <span>header</span>
+    <div class="header">
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Círculo de bioquímicos</a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Sección A</a></li>
+              <li><a href="#">Sección B</a></li>
+              <li><a href="#">Sección C</a></li>
+              <li><a href="#">Sección D</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Acción 1</a></li>
+                  <li><a href="#">Acción 2</a></li>
+                  <li><a href="#">Acción 3</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Salir</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </nav>
     </div>
-    <div class='main'>
-      <div class='sidebar'>
+
+    <div class="main">
+      <div class="sidebar">
         <ul class="nav nav-sidebar">
-          <li class="active"><a href="#">option a<span class="sr-only">(current)</span></a></li>
-          <li><a href="#">option b</a></li>
-          <li><a href="#">option c</a></li>
-          <li><a href="#">option d</a></li>
+          <li class="active"><a href="#">Opción A</a></li>
+          <li><a href="#">Opción B</a></li>
+          <li><a href="#">Opción C</a></li>
+          <li><a href="#">Opción D</a></li>
         </ul>
       </div>
-      <div id='canvas'>
-        <span>content</span>
+      <div class="canvas">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Título del panel</h3>
+          </div>
+          <div class="panel-body">Contenido del panel</div>
+        </div>
       </div>
-    </div>
-    <div class='footer'>
+    <div class="footer">
       <span>footer</span>
     </div>
 
