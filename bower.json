@@ -1,0 +1,18 @@
+{
+  "name": "bookish-spoon",
+  "description": "bookish-spoon",
+  "version": "0.1.0",
+  "homepage": "https://github.com/MakingSense/MSEditor",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.4.3",
+    "angular-animate": "~1.4.3",
+    "angular-route": "~1.4.3",
+    "angular-sanitize": "~1.4.3",
+    "bootstrap": "*",
+    "lodash": "~4.3.0"
+  },
+  "resolutions": {
+    "angular": "~1.4.3"
+  }
+}

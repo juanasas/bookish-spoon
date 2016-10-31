@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>bookish-spoon</title>
+    <link rel="stylesheet" href="assets/styles/styles.css"/>
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap-theme.css"/>
+  </head>
+
+  <body ng-app="bookish-spoon">
+    <div class='header'>
+      <span>header</span>
+    </div>
+    <div class='main'>
+      <div class='sidebar'>
+        <ul class="nav nav-sidebar">
+          <li class="active"><a href="#">option a<span class="sr-only">(current)</span></a></li>
+          <li><a href="#">option b</a></li>
+          <li><a href="#">option c</a></li>
+          <li><a href="#">option d</a></li>
+        </ul>
+      </div>
+      <div id='canvas'>
+        <span>content</span>
+      </div>
+    </div>
+    <div class='footer'>
+      <span>footer</span>
+    </div>
+
+    <!-- scripts -->
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular-route/angular-route.js"></script>
+    <script src="lib/angular-animate/angular-animate.js" ></script>
+    <script src="lib/jquery/dist/jquery.js" ></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.js" ></script>
+    <script src="lib/lodash/dist/lodash.js" ></script>
+
+    <script src="app.js"></script>
+    <script src="controllers/mainCtrl.js"></script>
+    <script src="controllers/loginCtrl.js"></script>
+    <script src="services/utils.js"></script>
+  </body>
+</html>
